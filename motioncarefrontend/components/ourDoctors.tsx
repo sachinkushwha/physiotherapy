@@ -21,7 +21,7 @@ export const Doctors = () => {
           <img
             src={arr.imgs}
             alt=""
-            className="w-full h-60 object-cover rounded-md object-top"
+            className="w-full h-60 object-cover rounded-md "
           />
           <h1 className="text-2xl font-semibold mt-4 font-roboto text-gray-800">{arr.title}</h1>
           <p className="mt-2 text-gray-700 text-sm">

@@ -62,7 +62,7 @@ export const Nav = () => {
                 {isOpen && (
                     <ul className="w-full mt-4 flex flex-col gap-3 text-lg md:hidden">
                         <li><Link href="/" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Home</Link></li>
-                        <li><Link href="/service" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Service List</Link></li>
+                        <li><Link href="/servicelist" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Service List</Link></li>
                         <li><Link href="/about" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>About</Link></li>
                         <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>📞+91 7546921395</a></li>
                         {/* {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>} */}

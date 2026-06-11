@@ -34,7 +34,7 @@ exports.serv = (req, res, next) => {
 
 exports.Doctor = (req, res, next) => {
   let doc = [{
-    imgs: "doctor1.jpg", title: "Dr.Kalimullah", dis: "Consultant Physician"
+    imgs: "doctor1.png", title: "Dr.Kalimullah", dis: "Consultant Physician"
   }]
   res.status(200).json(doc);
 }
