@@ -22,8 +22,8 @@ export default function UserForm() {
     };
     const postFormDataMutation=useMutation({
         mutationFn:postFormData,
-        onSuccess:()=>{
-            alert("appointment Booked");
+        onSuccess:(data)=>{
+            alert(data);
             navigate.push('/')
         },
         onError:()=>{
