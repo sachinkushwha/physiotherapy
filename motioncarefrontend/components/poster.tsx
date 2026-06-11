@@ -16,7 +16,7 @@ export const Poster = () => {
                     Your Recovery, Our Priority
                 </p>
                 <Link
-                    href="/form"
+                    href="/appointmentform"
                     className="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base md:text-lg font-semibold py-2 px-5 sm:py-3 sm:px-6 rounded-lg shadow-md transition"
                 >
                     Book Appointment

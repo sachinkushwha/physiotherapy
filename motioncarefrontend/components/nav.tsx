@@ -50,7 +50,7 @@ export const Nav = () => {
                 {/* Desktop Links */}
                 <ul className="hidden md:flex gap-4 text-lg">
                     <li><Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link></li>
-                    <li><Link href="/service" className="text-gray-700 hover:text-blue-600">Service List</Link></li>
+                    <li><Link href="/servicelist" className="text-gray-700 hover:text-blue-600">Service List</Link></li>
                     <li><Link href="/about" className="text-gray-700 hover:text-blue-600">About</Link></li>
                     <li><a href="tel:+917546921395" className="text-gray-700 hover:text-blue-600">📞+91 7546921395</a></li>
                     {/* {isAuthenticated && <li><button className="text-gray-700 hover:text-blue-600" onClick={() => { logout({ logoutParams: { returnTo: window.location.origin } }) }}>logout</button></li>} */}

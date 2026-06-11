@@ -10,7 +10,7 @@ export const Appointment = () => {
         Book Your Online Appointment
       </h1>
       <Link
-        href="/form"
+        href="/appointmentform"
         className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-md transition"
       >
         Book Appointment
