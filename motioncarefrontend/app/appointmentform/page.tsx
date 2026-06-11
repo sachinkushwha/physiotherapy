@@ -75,6 +75,7 @@ export default function UserForm() {
                                 <Field
                                     type="text"
                                     name="name"
+                                    required
                                     placeholder="Enter your name"
                                     className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-800 placeholder-slate-400 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-200 text-sm"
                                 />
@@ -95,6 +96,7 @@ export default function UserForm() {
                                 <Field
                                     type="tel"
                                     name="phone"
+                                    required
                                     maxLength={10}
                                     placeholder="Phone number"
                                     className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-800 placeholder-slate-400 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-200 text-sm"
@@ -107,6 +109,7 @@ export default function UserForm() {
                                 <Field
                                     as="select"
                                     name="service"
+                                    required
                                     className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-200 text-sm appearance-none cursor-pointer"
                                 >
                                     <option value="" disabled>Choose a service</option>
@@ -124,6 +127,7 @@ export default function UserForm() {
                                 <Field
                                     type="date"
                                     name="date"
+                                    required
                                     className="w-full border border-slate-200 rounded-xl px-4 py-3 text-slate-700 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-200 text-sm cursor-pointer"
                                 />
                             </div>
