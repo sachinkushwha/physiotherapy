@@ -24,6 +24,7 @@ export default function UserForm() {
         mutationFn:postFormData,
         onSuccess:()=>{
             alert("appointment Booked");
+            navigate.push('/')
         },
         onError:()=>{
             alert('error in form submition');
