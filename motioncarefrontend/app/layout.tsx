@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MotionCare",
-  description: "Developed by jynetra",
+  title: "Online Physiotherapy Consultation | Expert Physiotherapists in India",
+  description: "Get professional online physiotherapy consultation for back pain, neck pain, sports injuries, and rehabilitation. Book an appointment with expert physiotherapists today.",
 };
 
 export default function RootLayout({
